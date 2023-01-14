@@ -1,1 +1,0 @@
-import{_ as e,c as t,o as r,e as o}from"./app.e6ae406b.js";const k=JSON.parse('{"title":"Lisk 简介","description":"","frontmatter":{},"headers":[],"relativePath":"intro.md","lastUpdated":null}'),a={name:"intro.md"},s=o("",4),n=[s];function i(_,c,d,l,h,p){return r(),t("div",null,n)}const m=e(a,[["render",i]]);export{k as __pageData,m as default};

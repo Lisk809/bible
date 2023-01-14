@@ -1,1 +1,0 @@
-import{_ as e,c as l,o,e as i}from"./app.e6ae406b.js";const f=JSON.parse('{"title":"插件生命周期","description":"","frontmatter":{},"headers":[],"relativePath":"develop/lifecycle.md","lastUpdated":null}'),c={name:"develop/lifecycle.md"},t=i("",5),d=[t];function n(a,p,r,s,_,u){return o(),l("div",null,d)}const g=e(c,[["render",n]]);export{f as __pageData,g as default};
