@@ -1,11 +1,15 @@
 <html>
     <head>
         <script>
-/**
- * 获取一个UUID
- * 格式：8-4-4-4-12
- * @returns UUID
- */
+function getOptions(){
+    var url=window.location.href
+var options={}
+for(var i of url.split('?')[1].split('&')){
+    options[i.split('=')[0]]=i.split('=')[1]
+}
+return options
+
+}
 function getUUID() {
   return "xxxxxxxx-xxxx-xxxx-yxxx-xxxxxxxxxxxx".replace(/[xy]/g, c => {
     const r = (Math.random() * 16) | 0;
@@ -13,7 +17,14 @@ function getUUID() {
     return v.toString(16);
   });
 };
-document.write(getUUID())
+if(getOptions().type=='text'){
+    document.write(getUUID())
+
+}
+if(getOptions().type=='json'){
+    document.write(JSON.stringify({'code':1, 'msg':'获取成功', 'data':{'uuid':getUUID()}}))
+
+}
 </script>
     </head>
     <body></body>
