@@ -10,11 +10,11 @@ export default defineConfig({
     ['link', { rel: 'icon', type: 'image/png', href: '/lisk.png' }],
     ['script', { src: 'https://unpkg.com/twemoji@latest/dist/twemoji.min.js' }]
   ],
+  base:"/Lisk/",
   lastUpdated: true,
   markdown: {
     theme: 'one-dark-pro'
   },
-  base: "/Lisk/",
   themeConfig: {
     logo: '/lisk.png',
     nav: [
@@ -44,6 +44,13 @@ export default defineConfig({
         collapsible: true,
         items:[]
       
+      },
+      {
+        text: 'Viki名场面珍藏馆',
+        collapsible: true,
+        items:[
+        {text: '第一页', link: '/Viki/index'}
+        ]
       }
     ],
     outline: 2,
