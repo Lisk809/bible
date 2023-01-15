@@ -2,7 +2,7 @@
 
 
 
-`Lisk` 一个~~练习两年半~~的业余程序员崽，主要领域：[Node.js](https://nodejs.com/), [Python](https://python.org/)
+`Lisk` 一个~练习两年半~的业余程序员崽，主要领域：[Node.js](https://nodejs.com/), [Python](https://python.org/)
 
 主要项目：
 - [LskBot](https://github.com/Lisk809/LskBot)
