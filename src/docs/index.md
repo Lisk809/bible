@@ -29,3 +29,11 @@ features:
   - title: 还没想好
     details: none
 ---
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+        <script>
+        async function main(){
+            const {data}=await axios.get('https://v1.hitokoto.cn/')
+            document.write(`${data.hitokoto}\n《${data.from}》${data.from_who}`)
+            }
+            main()
+            </script>
