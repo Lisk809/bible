@@ -10,7 +10,6 @@ export default defineConfig({
     ['link', { rel: 'icon', type: 'image/png', href: '/lisk.png' }],
     ['script', { src: 'https://unpkg.com/twemoji@latest/dist/twemoji.min.js' }]
   ],
-  base:"/Lisk/",
   lastUpdated: true,
   markdown: {
     theme: 'one-dark-pro'
