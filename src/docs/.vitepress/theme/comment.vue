@@ -39,7 +39,8 @@ const initGitalk = () => {
       repo: 'lisk809.github.io/Lisk',
       clientID: '10683ff3f803712d82c8',
       clientSecret: 'b7000a4db5675cf81547c2b1358a313b28e02ce0',// 自己的clientSecret
-      admin: ['Lisk809'],                                                       labels: [{name:'Gitalk'}],
+      admin: ['Lisk809'],                                                       
+      labels: [{name:'Gitalk'}],
       createIssueManually: true,
       proxy: "https://vercel.younglina.top/github_access_token"
     })

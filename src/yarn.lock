@@ -968,10 +968,9 @@ get-symbol-description@^1.0.0:
     call-bind "^1.0.2"
     get-intrinsic "^1.1.1"
 
-gitalk@^1.8.0:
-  version "1.8.0"
-  resolved "https://registry.yarnpkg.com/gitalk/-/gitalk-1.8.0.tgz#54cde437f399ea8ea23aeae3db5ce8dc81fe7f46"
-  integrity sha512-/bWlUAeb0gXuo1SzBeduS07T4PEyL5WoRgxewUIg3liVUof5hUgW/hhx3ns2PJuiFkOxnsSuk1FPzwf6YESJaA==
+"gitalk@https://github.com/lesonky/gitalk.git":
+  version "1.7.2"
+  resolved "https://github.com/lesonky/gitalk.git#87af8b0edd6e2a7f655e05c4cf7f90883574c8ab"
   dependencies:
     autosize "3.0.21"
     axios "0.19.2"
