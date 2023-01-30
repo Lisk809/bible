@@ -1,5 +1,10 @@
 import { defineConfig } from 'vitepress'
-
+import { SearchPlugin } from "vitepress-plugin-search";
+var options = {
+	    previewLength: 62,
+	      buttonLabel: "Search",
+	        placeholder: "Search docs",
+};
 export default defineConfig({
   lang: 'zh-CN',
   title: 'Lisk',

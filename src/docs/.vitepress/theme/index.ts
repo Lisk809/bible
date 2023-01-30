@@ -3,7 +3,7 @@ import NotFound from './NotFound.vue'
 import plugin from './layouts/plugin/index.vue'
 import type { Theme } from 'vitepress'
 import './index.less'
-import MyLayout from './comment.vue'
+import MyLayout from './gitalk.vue'
 export default {
   ...DefaultTheme,
   Layout: MyLayout,

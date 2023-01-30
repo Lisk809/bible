@@ -33,17 +33,16 @@ const initGitalk = () => {
     if (container) {
       emptyNode(container);
       container.appendChild(s_div);
-      var gitment = new Gitalk({
-      id: location.href,
-      owner: 'Lisk809',
-      repo: 'lisk809.github.io/Lisk',
-      clientID: '10683ff3f803712d82c8',
-      clientSecret: 'b7000a4db5675cf81547c2b1358a313b28e02ce0',// 自己的clientSecret
-      admin: ['Lisk809'],                                                       
-      labels: [{name:'Gitalk'}],
-      createIssueManually: true,
-      proxy: "https://vercel.younglina.top/github_access_token"
-    })
+      const gitment = new Gitalk({
+        owner: 'Lisk809', // GitHub repository 所有者
+        repo: 'https://github.com/Lisk809/Lisk', // GitHub repository
+        clientID: 10683ff3f803712d82c8, // 自己的clientID
+        clientSecret: 'fdb6ee0c92eff74124cb0fec4cb9924c7131b811', // 自己的clientSecret
+        admin: ['Lisk809'],
+        labels: [{ name: 'Gitalk' }],
+        createIssueManually: true,
+        proxy: "https://vercel.younglina.top/github_access_token",
+      });
       gitment.render('gitalk-page-container');
     }
   }
