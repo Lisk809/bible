@@ -19,7 +19,6 @@ export default defineConfig({
   markdown: {
     theme: 'one-dark-pro'
   },
-  base:"/Lisk/",
   themeConfig: {
     logo: '/lisk.png',
     nav: [
