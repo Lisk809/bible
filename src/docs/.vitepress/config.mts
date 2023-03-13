@@ -20,7 +20,6 @@ export default defineConfig({
     theme: 'one-dark-pro',
     lineNumbers: true
   },
-  base:"/Lisk/",
   themeConfig: {
     logo: '/lisk.png',
     nav: [
