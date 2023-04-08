@@ -230,7 +230,7 @@ link: "/the-art-of-asking-questions/使用清晰、正确、精准且合乎语�
       next: '下一页'
     },
     editLink: {
-      pattern: 'https://github.com/Lisk809/Lisk/edit/main/docs/:path',
+      pattern: 'https://github.com/Lisk809/Lisk/edit/main/src/docs/:path',
       text: '在 GitHub 上编辑'
     }
   }
