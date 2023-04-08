@@ -1,10 +1,5 @@
-import { defineConfig } from 'vitepress'
-import { SearchPlugin } from "vitepress-plugin-search";
-var options = {
-	    previewLength: 62,
-	      buttonLabel: "Search",
-	        placeholder: "Search docs",
-};
+import { defineConfig } from 'vitepress';
+
 export default defineConfig({
   lang: 'zh-CN',
   title: 'Lisk',
@@ -47,7 +42,9 @@ export default defineConfig({
       {
         text: '文章',
         collapsible: true,
-        items:[]
+        items:[
+		{text: 'JS中的==和===', link: '/blog/compare'}
+	]
       
       },
       {
