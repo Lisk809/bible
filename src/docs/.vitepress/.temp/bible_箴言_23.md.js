@@ -1,0 +1,19 @@
+import { ssrRenderAttrs } from "vue/server-renderer";
+import { useSSRContext } from "vue";
+import { _ as _export_sfc } from "./plugin-vue_export-helper.cc2b3d55.js";
+const __pageData = JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"bible/箴言/23.md","lastUpdated":1690730860000}');
+const _sfc_main = { name: "bible/箴言/23.md" };
+function _sfc_ssrRender(_ctx, _push, _parent, _attrs, $props, $setup, $data, $options) {
+  _push(`<div${ssrRenderAttrs(_attrs)}><p><a id="1"></a>23:1 你若与官长坐席，要留意在你面前的是谁。</p><p><a id="2"></a>23:2 你若是贪食的，就当拿刀放在喉咙上。</p><p><a id="3"></a>23:3 不可贪恋他的美食，因为是哄人的食物。</p><p><a id="4"></a>23:4 不要劳碌求富，休仗自己的聪明。</p><p><a id="5"></a>23:5 你岂要定睛在虚无的钱财上吗？因钱财必长翅膀，如鹰向天飞去。</p><p><a id="6"></a>23:6 不要吃恶眼人的饭，也不要贪他的美味。</p><p><a id="7"></a>23:7 因为他心怎样思量，他为人就是怎样。他虽对你说：“请吃，请喝”，他的心却与你相背。</p><p><a id="8"></a>23:8 你所吃的那点食物必吐出来；你所说的甘美言语也必落空。</p><p><a id="9"></a>23:9 你不要说话给愚昧人听，因他必藐视你智慧的言语。</p><p><a id="10"></a>23:10 不可挪移古时的地界，也不可侵入孤儿的田地。</p><p><a id="11"></a>23:11 因他们的救赎主大有能力，他必向你为他们辨屈。</p><p><a id="12"></a>23:12 你要留心领受训诲，侧耳听从知识的言语。</p><p><a id="13"></a>23:13 不可不管教孩童，你用杖打他，他必不至于死。</p><p><a id="14"></a>23:14 你要用杖打他，就可以救他的灵魂免下阴间。</p><p><a id="15"></a>23:15 我儿，你心若存智慧，我的心也甚欢喜；</p><p><a id="16"></a>23:16 你的嘴若说正直话，我的心肠也必快乐。</p><p><a id="17"></a>23:17 你心中不要嫉妒罪人，只要终日敬畏耶和华。</p><p><a id="18"></a>23:18 因为至终必有善报，你的指望也不至断绝。</p><p><a id="19"></a>23:19 我儿，你当听，当存智慧，好在正道上引导你的心。</p><p><a id="20"></a>23:20 好饮酒的，好吃肉的，不要与他们来往。</p><p><a id="21"></a>23:21 因为好酒贪食的，必致贫穷；好睡觉的，必穿破烂衣服。</p><p><a id="22"></a>23:22 你要听从生你的父亲；你母亲老了，也不可藐视她。</p><p><a id="23"></a>23:23 你当买真理；就是智慧、训诲和聪明也都不可卖。</p><p><a id="24"></a>23:24 义人的父亲，必大得快乐；人生智慧的儿子，必因他欢喜。</p><p><a id="25"></a>23:25 你要使父母欢喜，使生你的快乐。</p><p><a id="26"></a>23:26 我儿，要将你的心归我，你的眼目也要喜悦我的道路。</p><p><a id="27"></a>23:27 妓女是深坑，外女是窄阱。</p><p><a id="28"></a>23:28 她埋伏好像强盗，她使人中多有奸诈的。</p><p><a id="29"></a>23:29 谁有祸患？谁有忧愁？谁有争斗？谁有哀叹（注：或作“怨言”）？谁无故受伤？谁眼目红赤？</p><p><a id="30"></a>23:30 就是那流连饮酒，常去寻找调和酒的人。</p><p><a id="31,32"></a>23:31,32 酒发红，在杯中闪烁，你不可观看，虽然下咽舒畅，终久是咬你如蛇，刺你如毒蛇。</p><p><a id="33"></a>23:33 你眼必看见异怪的事（注：“异怪的事”或作“淫妇”），你心必发出乖谬的话。</p><p><a id="34"></a>23:34 你必像躺在海中，或像卧在桅杆上。</p><p><a id="35"></a>23:35 你必说：“人打我，我却未受伤；人鞭打我，我竟不觉得。我几时清醒，我仍去寻酒。”</p></div>`);
+}
+const _sfc_setup = _sfc_main.setup;
+_sfc_main.setup = (props, ctx) => {
+  const ssrContext = useSSRContext();
+  (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("bible/箴言/23.md");
+  return _sfc_setup ? _sfc_setup(props, ctx) : void 0;
+};
+const _23 = /* @__PURE__ */ _export_sfc(_sfc_main, [["ssrRender", _sfc_ssrRender]]);
+export {
+  __pageData,
+  _23 as default
+};
