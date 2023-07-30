@@ -1,3 +1,3 @@
-# KiviBot 使用文档
+# Biblical website
 
-使用 `vitepress` 搭建, 文档地址：https://beta.kivibot.com/
+Build with [vitepress](https://vitepress.dev/)
